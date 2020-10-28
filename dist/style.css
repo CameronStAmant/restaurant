@@ -9,6 +9,7 @@ body, html {
 #nav > button {
   border: none;
   outline: none;
+  background-color: transparent;
 }
 
 #menuDisplay {

@@ -30,11 +30,6 @@ function menu() {
   menuItem3.innerHTML = 'Seasonal Soup <br> 7';
   menuItem3.id = 'menuItem3';
   menuDisplay.appendChild(menuItem3);
-
-  // let menuItem3Img = document.createElement('img');
-  // menuItem3Img.src = '../dist/soup.jpg';
-  // menuItem3Img.height = '100';
-  // menuItem3.appendChild(menuItem3Img);
 }
 
 export default menu
