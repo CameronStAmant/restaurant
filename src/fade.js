@@ -5,12 +5,12 @@ function fade() {
   bodyDiv.style.opacity = 0;
   let k = window.setInterval(function() {
     if (i >= 11) {
-      clearInterval(k);
+      clearInterval();
     } else {
       bodyDiv.style.opacity = i / 10;
       i++;
     }
-  }, 100);
+  }, 50);
 };
 
 export default fade
