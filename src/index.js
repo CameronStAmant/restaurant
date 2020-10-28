@@ -4,7 +4,6 @@ import navigation from './nav';
 import menu from './menu';
 import fade from './fade';
 
-console.log('testing 1234');
 homepage();
 navigation();
 
